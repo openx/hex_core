@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.4.0 (2018-12-20)
+
+* Switch back from proto3 to proto2 for now
+* Verify authenticity of signed payload
+* `hex_repo` and `hex_registry` functions no longer return list of packages wrapped in
+  `#{packages => Packages}` map.
+
 ## 0.3.0 (2018-12-14)
 
 * Swich from proto2 to proto3
